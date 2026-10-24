@@ -1,0 +1,328 @@
+{
+  "model": "two-component periodic Hamiltonian lattice v1",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "rows": [
+    {
+      "name": "reference",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.0,
+        "c": 1.0,
+        "coupling": 0.8,
+        "h": 1.0
+      },
+      "measured": {
+        "oscillation": 0.15915495209268155,
+        "exchange": 0.09747469274085675,
+        "pulse": 0.006034195661977302,
+        "pulse_speed": 0.7723770447330947,
+        "centroid_coherence": 0.9620028539389612,
+        "relative_energy_drift": 1.1102230246251565e-16
+      },
+      "rates": {
+        "oscillation": 1.0,
+        "pulse": 1.0,
+        "exchange": 1.0
+      },
+      "spread": 0.0,
+      "agreement": true,
+      "sampling_error": 6.295655041732573e-08
+    },
+    {
+      "name": "imposed h=0.85",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.0,
+        "c": 1.0,
+        "coupling": 0.8,
+        "h": 0.85
+      },
+      "measured": {
+        "oscillation": 0.13528170927877925,
+        "exchange": 0.08285348882972822,
+        "pulse": 0.005129066312680707,
+        "pulse_speed": 0.6565204880231305,
+        "centroid_coherence": 0.9620028539389612,
+        "relative_energy_drift": 2.220446049250313e-16
+      },
+      "rates": {
+        "oscillation": 0.8499999999999996,
+        "pulse": 0.85,
+        "exchange": 0.8499999999999998
+      },
+      "spread": 4.440892098500626e-16,
+      "agreement": true,
+      "sampling_error": 6.295655008425882e-08
+    },
+    {
+      "name": "imposed h=0.65",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.0,
+        "c": 1.0,
+        "coupling": 0.8,
+        "h": 0.65
+      },
+      "measured": {
+        "oscillation": 0.10345071886024297,
+        "exchange": 0.06335855028155687,
+        "pulse": 0.003922227180285249,
+        "pulse_speed": 0.5020450790765119,
+        "centroid_coherence": 0.9620028539389612,
+        "relative_energy_drift": 1.1102230246251565e-16
+      },
+      "rates": {
+        "oscillation": 0.6499999999999998,
+        "pulse": 0.6500000000000005,
+        "exchange": 0.6499999999999998
+      },
+      "spread": 1.1102230246251565e-15,
+      "agreement": true,
+      "sampling_error": 6.295655019528112e-08
+    },
+    {
+      "name": "imposed h=0.45",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.0,
+        "c": 1.0,
+        "coupling": 0.8,
+        "h": 0.45
+      },
+      "measured": {
+        "oscillation": 0.07161972844170668,
+        "exchange": 0.043863611733385544,
+        "pulse": 0.002715388047889786,
+        "pulse_speed": 0.3475696701298926,
+        "centroid_coherence": 0.9620028539389612,
+        "relative_energy_drift": 0.0
+      },
+      "rates": {
+        "oscillation": 0.4499999999999999,
+        "pulse": 0.45,
+        "exchange": 0.45000000000000007
+      },
+      "spread": 4.440892098500626e-16,
+      "agreement": true,
+      "sampling_error": 6.295655030630343e-08
+    },
+    {
+      "name": "stiffness c=0.85",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.0,
+        "c": 0.85,
+        "coupling": 0.8,
+        "h": 1.0
+      },
+      "measured": {
+        "oscillation": 0.15915495209268155,
+        "exchange": 0.09747469274085675,
+        "pulse": 0.004856851195007099,
+        "pulse_speed": 0.6216769529609086,
+        "centroid_coherence": 0.961912783617241,
+        "relative_energy_drift": 3.3306690738754696e-16
+      },
+      "rates": {
+        "oscillation": 1.0,
+        "pulse": 0.8048879199610827,
+        "exchange": 1.0
+      },
+      "spread": 0.24240900527908438,
+      "agreement": false,
+      "sampling_error": 6.295655041732573e-08
+    },
+    {
+      "name": "stiffness c=0.65",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.0,
+        "c": 0.65,
+        "coupling": 0.8,
+        "h": 1.0
+      },
+      "measured": {
+        "oscillation": 0.15915495209268155,
+        "exchange": 0.09747469274085675,
+        "pulse": 0.00330337949719586,
+        "pulse_speed": 0.4228325756410701,
+        "centroid_coherence": 0.9618526858832954,
+        "relative_energy_drift": 3.3306690738754696e-16
+      },
+      "rates": {
+        "oscillation": 1.0,
+        "pulse": 0.5474432189879305,
+        "exchange": 1.0
+      },
+      "spread": 0.8266734618591505,
+      "agreement": false,
+      "sampling_error": 6.295655041732573e-08
+    },
+    {
+      "name": "stiffness c=0.45",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.0,
+        "c": 0.45,
+        "coupling": 0.8,
+        "h": 1.0
+      },
+      "measured": {
+        "oscillation": 0.15915495209268155,
+        "exchange": 0.09747469274085675,
+        "pulse": 0.0018393518423457113,
+        "pulse_speed": 0.23543703582025105,
+        "centroid_coherence": 0.9619471367164246,
+        "relative_energy_drift": 3.3306690738754696e-16
+      },
+      "rates": {
+        "oscillation": 1.0,
+        "pulse": 0.30482137891812866,
+        "exchange": 1.0
+      },
+      "spread": 2.2806097903933042,
+      "agreement": false,
+      "sampling_error": 6.295655041732573e-08
+    },
+    {
+      "name": "candidate s=0.15",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.15,
+        "c": 0.85,
+        "coupling": 0.8,
+        "h": 1.0
+      },
+      "measured": {
+        "oscillation": 0.18302819716024193,
+        "exchange": 0.089052297348361,
+        "pulse": 0.004589308567122511,
+        "pulse_speed": 0.5874314965916814,
+        "centroid_coherence": 0.9617631272158149,
+        "relative_energy_drift": 3.3306690738754696e-16
+      },
+      "rates": {
+        "oscillation": 1.150000014160151,
+        "pulse": 0.7605501750698408,
+        "exchange": 0.9135940298382137
+      },
+      "spread": 0.5120633087153617,
+      "agreement": false,
+      "sampling_error": 8.38580905826447e-08
+    },
+    {
+      "name": "candidate s=0.3",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.3,
+        "c": 0.7,
+        "coupling": 0.8,
+        "h": 1.0
+      },
+      "measured": {
+        "oscillation": 0.20690142381938664,
+        "exchange": 0.08177949554662686,
+        "pulse": 0.0032079169902884215,
+        "pulse_speed": 0.41061337475691795,
+        "centroid_coherence": 0.9616797599540298,
+        "relative_energy_drift": 3.3306690738754696e-16
+      },
+      "rates": {
+        "oscillation": 1.2999999126568216,
+        "pulse": 0.5316229651786336,
+        "exchange": 0.8389818243802352
+      },
+      "spread": 1.4453419016990758,
+      "agreement": false,
+      "sampling_error": 2.2978847158405813e-08
+    },
+    {
+      "name": "candidate s=0.45",
+      "parameters": {
+        "n": 256,
+        "length": 128.0,
+        "mass": 1.45,
+        "c": 0.55,
+        "coupling": 0.8,
+        "h": 1.0
+      },
+      "measured": {
+        "oscillation": 0.2307746416938631,
+        "exchange": 0.07546938803768735,
+        "pulse": 0.001990059380435536,
+        "pulse_speed": 0.2547276006957486,
+        "centroid_coherence": 0.9618287085309868,
+        "relative_energy_drift": 3.3306690738754696e-16
+      },
+      "rates": {
+        "oscillation": 1.449999755957797,
+        "pulse": 0.32979695918302854,
+        "exchange": 0.7742459700624855
+      },
+      "spread": 3.3966438003240826,
+      "agreement": false,
+      "sampling_error": 1.3592072867218974e-07
+    }
+  ],
+  "spatial": {
+    "reference": {
+      "values": [
+        {
+          "n": 256,
+          "pulse": 0.006034195661977302
+        },
+        {
+          "n": 512,
+          "pulse": 0.006444568671526192
+        },
+        {
+          "n": 1024,
+          "pulse": 0.0065488267334867485
+        },
+        {
+          "n": 2048,
+          "pulse": 0.006574995483450992
+        }
+      ],
+      "last_relative_change": 0.003995944774417781
+    },
+    "candidate s=0.45": {
+      "values": [
+        {
+          "n": 256,
+          "pulse": 0.001990059380435536
+        },
+        {
+          "n": 512,
+          "pulse": 0.0021444851029101463
+        },
+        {
+          "n": 1024,
+          "pulse": 0.0021840330376042614
+        },
+        {
+          "n": 2048,
+          "pulse": 0.0021939793177878364
+        }
+      ],
+      "last_relative_change": 0.004554088703019543
+    }
+  },
+  "checks": {
+    "energy": true,
+    "sampling": true,
+    "spatial": true,
+    "imposed_control": true,
+    "selective_control": true
+  }
+}
