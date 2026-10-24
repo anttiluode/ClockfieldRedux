@@ -1,10 +1,53 @@
 # ClockfieldRedux
 
-## New: direct assay of the original Clockfield equation
+## A vortex that survives — and a clock that changes
 
-Run `python run_legacy_experiment.py` for the full nonlinear homogeneous-clock assay. [Model and interpretation](LEGACY_MODEL.md) · [Measured results](legacy_results/SUMMARY.md) · [Protocol](LEGACY_PROTOCOL.md).
+The latest experiment constructs a **two-dimensional vortex in the full complex
+legacy field**. It measures its size, tests stability against both field
+components, and excites a candidate internal breathing clock.
 
-The original field equation also gives different clock rates: at tau=0.4, radial oscillation runs at **0.245516** of reference while phase travel runs at **0.172820**. The measurements match the linearized prediction. The coarse raw-speed grid check fails its 0.5% tolerance; a supplemental finer-grid check passes, with both retained in the report. The original damping audit finds the radial probe overdamped at tau=5. These are homogeneous fixed-ruler results, not a vortex or gravity test.
+- All nine tested boxes/grids pass the finite-box linear stability and small-disturbance survival checks.
+- The breathing frequency / vacuum frequency is **0.9019** at tau=0 and **0.9841** at tau=0.1.
+- At tau=0.4, **no bound radial breathing mode is resolved**; an extended box mode is not counted as a clock.
+- Core and outer-amplitude radii do not scale identically with the vacuum wave length.
+
+This is a concrete toy field world containing a tested defect. It does not yet
+establish stable isolated particles, universal material geometry, or gravity.
+The boundary fixes the winding; the main assay explicitly removes source damping.
+Changing tau changes a global coupling, not a gravitational potential.
+
+[What this means](VORTEX_MODEL.md) · [Measured results](vortex_results/SUMMARY.md)
+· [Declared protocol](VORTEX_PROTOCOL.md) · [Source](vortex_clockfield.py)
+
+![Vortex profile, breathing modes, clock traces and stability](vortex_results/vortex.svg)
+
+```bash
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python run_vortex_experiment.py
+```
+
+Open `vortex_results/report.html` locally for the offline visual report. Use
+`--out my_vortex_run` to preserve the recorded example. CPU only; the recording
+run took about 31 seconds with one BLAS thread. All declared numerical checks
+passed, and all 15 tests passed.
+
+## Earlier: homogeneous clocks and the ruler correction
+
+Run `python run_legacy_experiment.py` for the original nonlinear homogeneous
+assay. [Model](LEGACY_MODEL.md) · [Results](legacy_results/SUMMARY.md)
+· [Protocol](LEGACY_PROTOCOL.md).
+
+With a **fixed lattice ruler**, radial and travel clocks have different
+normalized rates. But using the characteristic wave length
+xi=c_eff,0/sqrt(2mu²) makes xi omega_radial / C = 1. The earlier mismatch
+therefore does **not** rule out a common linear wave geometry. A characteristic
+wave length is not automatically a material rod; the vortex experiment starts
+testing the properties of an actual field object.
+
+The original coarse raw-speed grid check failed its 0.5% tolerance; the
+supplemental finer-grid check passed. Both remain recorded. The separate source
+damping audit found the radial probe overdamped at tau=5.
 
 ![Original Clockfield clock comparison](legacy_results/legacy_clocks.svg)
 
@@ -101,7 +144,7 @@ The experiment checks all cases at two observation resolutions. It also checks p
 
 Energy drift is checked against 1e-10 relative. Tests additionally reverse random complex states after evolution. There is no stochastic training, so multiple random seeds are not used as a substitute for convergence analysis.
 
-This version contains no self-supported defect, spatially varying background, moving material ruler, backreaction, nonlinear binding, or entropy-production mechanism. Pulse amplitude is not a probability density; its centroid is an operational envelope readout.
+The initial linear model contains no self-supported defect, spatially varying background, moving material ruler, backreaction, nonlinear binding, or entropy-production mechanism. Pulse amplitude is not a probability density; its centroid is an operational envelope readout.
 
 ## What would count as progress?
 
@@ -116,3 +159,12 @@ Only after a common time description survives should propagation and object moti
 - `tests/test_clocks.py`: executable physical and numerical checks.
 - `PROTOCOL.md`: declared validation criteria.
 - `results/`: reproducible measurements and visual report.
+
+## Vortex experiment files
+
+- `vortex_clockfield.py`: full complex field, static solver, stability matrix and radial modes.
+- `run_vortex_experiment.py`: sweep, convergence checks, time measurements and reports.
+- `tests/test_vortex.py`: source-force, symmetry, stability-sign, Jacobian and dynamical checks.
+- `VORTEX_MODEL.md`: derivation, interpretation and limits.
+- `VORTEX_PROTOCOL.md`: thresholds recorded before the sweep.
+- `vortex_results/`: raw measurements, figures and standalone HTML report.

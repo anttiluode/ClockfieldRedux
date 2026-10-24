@@ -6,6 +6,15 @@ The nonlinear simulation confirms the predicted mismatch between a radial oscill
 
 This is evidence about this equation in a homogeneous, weak-probe regime. It is not a general disproof of emergent spacetime, and it does not test inertial versus gravitational mass.
 
+**Interpretation update:** with the characteristic wave length
+xi=c_eff,0/sqrt(2mu²), the dimensionless ratio xi omega_radial / C equals one,
+where C=Gamma0 c_eff,0. Thus the fixed-ruler mismatch does not rule out a common
+linear wave geometry. A characteristic length is not automatically a constructed
+material rod. The subsequent [vortex assay](VORTEX_MODEL.md) measures an actual
+defect's sizes and candidate breathing clock. Changing the global dimensionless
+coupling tau v² can be internally observable; it is not a gravitational redshift
+experiment or necessarily a mere change of units.
+
 ## Source and fidelity
 
 Source: [ClockfieldBornRule/clockfield_core.py](https://github.com/anttiluode/ClockfieldBornRule/blob/main/clockfield_core.py), inspected source blob `f4cc9fe9e72bc138c874337bf9e8c10f4a521f13`.
