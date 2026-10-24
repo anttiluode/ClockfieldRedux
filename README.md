@@ -1,5 +1,15 @@
 # ClockfieldRedux
 
+## New: direct assay of the original Clockfield equation
+
+Run `python run_legacy_experiment.py` for the full nonlinear homogeneous-clock assay. [Model and interpretation](LEGACY_MODEL.md) · [Measured results](legacy_results/SUMMARY.md) · [Protocol](LEGACY_PROTOCOL.md).
+
+The original field equation also gives different clock rates: at tau=0.4, radial oscillation runs at **0.245516** of reference while phase travel runs at **0.172820**. The measurements match the linearized prediction. The coarse raw-speed grid check fails its 0.5% tolerance; a supplemental finer-grid check passes, with both retained in the report. The original damping audit finds the radial probe overdamped at tau=5. These are homogeneous fixed-ruler results, not a vortex or gravity test.
+
+![Original Clockfield clock comparison](legacy_results/legacy_clocks.svg)
+
+## Initial instrument-validation model
+
 **Can different physical clocks agree on a local rate of time?**
 
 This repository contains a runnable, conservative wave-lattice experiment, three clock measurements, controls, and recorded results. It tests a prerequisite for a clockfield interpretation: whether changes in one medium affect different timing mechanisms by the same factor.

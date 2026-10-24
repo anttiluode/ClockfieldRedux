@@ -1,0 +1,404 @@
+{
+  "source_blob": "f4cc9fe9e72bc138c874337bf9e8c10f4a521f13",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "rows": [
+    {
+      "tau": 0,
+      "parameters": {
+        "tau": 0,
+        "mu2": 1.4,
+        "lam": 0.55,
+        "length": 128.0,
+        "n": 256,
+        "ds": 0.025,
+        "epsilon": 0.0001
+      },
+      "measured": {
+        "radial_frequency": 0.2663366363676119,
+        "pulse_speed": 0.9889558543133599,
+        "gamma0": 1.0,
+        "ceff0": 1.0,
+        "radial_crossings": 16,
+        "centroid_coherence": 0.9621363791062301,
+        "max_field_excursion": 0.00015955879868756462,
+        "centroid_fit_rms": 3.0500771367362887e-05,
+        "duration": 60.0
+      },
+      "radial_rate": 1.0,
+      "pulse_rate": 1.0,
+      "clock_ratio": 1.0,
+      "predicted_ratio": 1.0,
+      "agreement": true,
+      "prediction_error": 0.0
+    },
+    {
+      "tau": 0.1,
+      "parameters": {
+        "tau": 0.1,
+        "mu2": 1.4,
+        "lam": 0.55,
+        "length": 128.0,
+        "n": 256,
+        "ds": 0.025,
+        "epsilon": 0.0001
+      },
+      "measured": {
+        "radial_frequency": 0.1692225469299427,
+        "pulse_speed": 0.560994362324224,
+        "gamma0": 0.6353707204368831,
+        "ceff0": 0.8928053815224023,
+        "radial_crossings": 18,
+        "centroid_coherence": 0.9621363573606867,
+        "max_field_excursion": 0.00015954480704349905,
+        "centroid_fit_rms": 2.430907712631485e-05,
+        "duration": 105.7650247933884
+      },
+      "radial_rate": 0.6353708946611941,
+      "pulse_rate": 0.5672592561917003,
+      "clock_ratio": 0.8928001911296019,
+      "predicted_ratio": 0.8928053815224023,
+      "agreement": false,
+      "prediction_error": 5.539369651974546e-06
+    },
+    {
+      "tau": 0.2,
+      "parameters": {
+        "tau": 0.2,
+        "mu2": 1.4,
+        "lam": 0.55,
+        "length": 128.0,
+        "n": 256,
+        "ds": 0.025,
+        "epsilon": 0.0001
+      },
+      "measured": {
+        "radial_frequency": 0.1169500190906633,
+        "pulse_speed": 0.3534959143323253,
+        "gamma0": 0.4391058208738569,
+        "ceff0": 0.8140335388727166,
+        "radial_crossings": 19,
+        "centroid_coherence": 0.9621363422636178,
+        "max_field_excursion": 0.0001595460673466353,
+        "centroid_fit_rms": 2.020709838442905e-05,
+        "duration": 167.8410909090909
+      },
+      "radial_rate": 0.43910601517563175,
+      "pulse_rate": 0.3574435732298287,
+      "clock_ratio": 0.8140256814447417,
+      "predicted_ratio": 0.8140335388727166,
+      "agreement": false,
+      "prediction_error": 9.209972294366153e-06
+    },
+    {
+      "tau": 0.4,
+      "parameters": {
+        "tau": 0.4,
+        "mu2": 1.4,
+        "lam": 0.55,
+        "length": 128.0,
+        "n": 256,
+        "ds": 0.025,
+        "epsilon": 0.0001
+      },
+      "measured": {
+        "radial_frequency": 0.06538989339740676,
+        "pulse_speed": 0.1709110730136367,
+        "gamma0": 0.24551578605632662,
+        "ceff0": 0.7039144092114434,
+        "radial_crossings": 22,
+        "centroid_coherence": 0.9621363557909116,
+        "max_field_excursion": 0.00015954480704349905,
+        "centroid_fit_rms": 1.5111141476338172e-05,
+        "duration": 347.0245289256198
+      },
+      "radial_rate": 0.2455159541293905,
+      "pulse_rate": 0.1728197191696708,
+      "clock_ratio": 0.7039042321404183,
+      "predicted_ratio": 0.7039144092114434,
+      "agreement": false,
+      "prediction_error": 1.377326313289906e-05
+    },
+    {
+      "tau": 1,
+      "parameters": {
+        "tau": 1,
+        "mu2": 1.4,
+        "lam": 0.55,
+        "length": 128.0,
+        "n": 256,
+        "ds": 0.025,
+        "epsilon": 0.0001
+      },
+      "measured": {
+        "radial_frequency": 0.021187861129745814,
+        "pulse_speed": 0.041781938799957126,
+        "gamma0": 0.07955292570677189,
+        "ceff0": 0.5310850045437944,
+        "radial_crossings": 30,
+        "centroid_coherence": 0.9621362555732391,
+        "max_field_excursion": 0.00015954480704349905,
+        "centroid_fit_rms": 8.595551885197537e-06,
+        "duration": 1420.4380165289251
+      },
+      "radial_rate": 0.07955293503256987,
+      "pulse_rate": 0.04224853780654008,
+      "clock_ratio": 0.5310745328157038,
+      "predicted_ratio": 0.5310850045437944,
+      "agreement": false,
+      "prediction_error": 1.9600386778839685e-05
+    },
+    {
+      "tau": 5,
+      "parameters": {
+        "tau": 5,
+        "mu2": 1.4,
+        "lam": 0.55,
+        "length": 128.0,
+        "n": 256,
+        "ds": 0.025,
+        "epsilon": 0.0001
+      },
+      "measured": {
+        "radial_frequency": 0.001413391359439098,
+        "pulse_speed": 0.001416463074921436,
+        "gamma0": 0.005306784790140785,
+        "ceff0": 0.26990309764655407,
+        "radial_crossings": 59,
+        "centroid_coherence": 0.9621362475521996,
+        "max_field_excursion": 0.00015954480704349905,
+        "centroid_fit_rms": 2.2167655637512723e-06,
+        "duration": 41889.77107438015
+      },
+      "radial_rate": 0.005306785347729107,
+      "pulse_rate": 0.0014322813993602353,
+      "clock_ratio": 0.2698962376484929,
+      "predicted_ratio": 0.26990309764655407,
+      "agreement": false,
+      "prediction_error": 2.5311453988541288e-05
+    }
+  ],
+  "refinements": [
+    {
+      "tau": 0.4,
+      "checks": {
+        "half_step": {
+          "measured": {
+            "radial_frequency": 0.06538632294677495,
+            "pulse_speed": 0.17090933905963115,
+            "gamma0": 0.24551578605632662,
+            "ceff0": 0.7039144092114434,
+            "radial_crossings": 22,
+            "centroid_coherence": 0.9621362955600546,
+            "max_field_excursion": 0.00015954480704349905,
+            "centroid_fit_rms": 3.772220930696127e-06,
+            "duration": 347.0245289256198
+          },
+          "relative_change": {
+            "radial_frequency": 5.460248436439663e-05,
+            "pulse_speed": 1.014535790433424e-05
+          }
+        },
+        "half_amplitude": {
+          "measured": {
+            "radial_frequency": 0.06538989434506509,
+            "pulse_speed": 0.17091107301824232,
+            "gamma0": 0.24551578605632662,
+            "ceff0": 0.7039144092114434,
+            "radial_crossings": 22,
+            "centroid_coherence": 0.9621363558055563,
+            "max_field_excursion": 7.977240352174952e-05,
+            "centroid_fit_rms": 1.5109184624612296e-05,
+            "duration": 347.0245289256198
+          },
+          "relative_change": {
+            "radial_frequency": 1.4492428146439806e-08,
+            "pulse_speed": 2.6947555298306725e-11
+          }
+        },
+        "double_grid": {
+          "measured": {
+            "radial_frequency": 0.06538989339740676,
+            "pulse_speed": 0.17234539022786063,
+            "gamma0": 0.24551578605632662,
+            "ceff0": 0.7039144092114434,
+            "radial_crossings": 22,
+            "centroid_coherence": 0.9621777326272793,
+            "max_field_excursion": 0.00015954645659312403,
+            "centroid_fit_rms": 1.5375908167049332e-05,
+            "duration": 347.0245289256198
+          },
+          "relative_change": {
+            "radial_frequency": 0.0,
+            "pulse_speed": 0.008392184244899736
+          }
+        },
+        "quadruple_grid": {
+          "measured": {
+            "radial_frequency": 0.06538989339740676,
+            "pulse_speed": 0.17270464846658298,
+            "gamma0": 0.24551578605632662,
+            "ceff0": 0.7039144092114434,
+            "radial_crossings": 22,
+            "centroid_coherence": 0.9621800690391191,
+            "max_field_excursion": 0.0001595463761059536,
+            "centroid_fit_rms": 1.544097367506126e-05,
+            "duration": 347.0245289256198
+          },
+          "relative_change": {
+            "radial_frequency": 0.0,
+            "pulse_speed": 0.0020845247920315835
+          }
+        }
+      }
+    },
+    {
+      "tau": 5,
+      "checks": {
+        "half_step": {
+          "measured": {
+            "radial_frequency": 0.0014133138567623616,
+            "pulse_speed": 0.0014164609622184254,
+            "gamma0": 0.005306784790140785,
+            "ceff0": 0.26990309764655407,
+            "radial_crossings": 59,
+            "centroid_coherence": 0.9621362396931719,
+            "max_field_excursion": 0.00015954480704349905,
+            "centroid_fit_rms": 5.644499161302723e-07,
+            "duration": 41889.77107438015
+          },
+          "relative_change": {
+            "radial_frequency": 5.483454827903689e-05,
+            "pulse_speed": 1.4915341232102364e-06
+          }
+        },
+        "half_amplitude": {
+          "measured": {
+            "radial_frequency": 0.0014133914342552493,
+            "pulse_speed": 0.0014164630749522334,
+            "gamma0": 0.005306784790140785,
+            "ceff0": 0.26990309764655407,
+            "radial_crossings": 59,
+            "centroid_coherence": 0.9621362475869596,
+            "max_field_excursion": 7.977240352174952e-05,
+            "centroid_fit_rms": 2.215349822039245e-06,
+            "duration": 41889.77107438015
+          },
+          "relative_change": {
+            "radial_frequency": 5.2933782912489846e-08,
+            "pulse_speed": 2.174238566965414e-11
+          }
+        },
+        "double_grid": {
+          "measured": {
+            "radial_frequency": 0.001413391359439098,
+            "pulse_speed": 0.001428350166739647,
+            "gamma0": 0.005306784790140785,
+            "ceff0": 0.26990309764655407,
+            "radial_crossings": 59,
+            "centroid_coherence": 0.9621777746658395,
+            "max_field_excursion": 0.00015954480704349905,
+            "centroid_fit_rms": 2.262200382139613e-06,
+            "duration": 41889.77107438015
+          },
+          "relative_change": {
+            "radial_frequency": 0.0,
+            "pulse_speed": 0.008392094385425652
+          }
+        },
+        "quadruple_grid": {
+          "measured": {
+            "radial_frequency": 0.001413391359439098,
+            "pulse_speed": 0.0014313275652411675,
+            "gamma0": 0.005306784790140785,
+            "ceff0": 0.26990309764655407,
+            "radial_crossings": 59,
+            "centroid_coherence": 0.9621803671946786,
+            "max_field_excursion": 0.00015954480704349905,
+            "centroid_fit_rms": 2.2719590688053634e-06,
+            "duration": 41889.77107438015
+          },
+          "relative_change": {
+            "radial_frequency": 0.0,
+            "pulse_speed": 0.0020845018055459796
+          }
+        }
+      }
+    }
+  ],
+  "original_damping": [
+    {
+      "tau": 0,
+      "dt": 0.02,
+      "steps": 3000,
+      "source_damping": 0.005,
+      "approximate_continuous_friction": 0.25,
+      "linearized_regime": "underdamped",
+      "upward_crossings": 16,
+      "measured_frequency": 0.2659167538969575,
+      "final_relative_displacement": 0.0005124311326953546
+    },
+    {
+      "tau": 0.1,
+      "dt": 0.02,
+      "steps": 3000,
+      "source_damping": 0.005,
+      "approximate_continuous_friction": 0.25,
+      "linearized_regime": "underdamped",
+      "upward_crossings": 10,
+      "measured_frequency": 0.16824737973492934,
+      "final_relative_displacement": 0.00048206500395703473
+    },
+    {
+      "tau": 0.2,
+      "dt": 0.02,
+      "steps": 3000,
+      "source_damping": 0.005,
+      "approximate_continuous_friction": 0.25,
+      "linearized_regime": "underdamped",
+      "upward_crossings": 7,
+      "measured_frequency": 0.1153778380604842,
+      "final_relative_displacement": 0.0004380202207108098
+    },
+    {
+      "tau": 0.4,
+      "dt": 0.02,
+      "steps": 3000,
+      "source_damping": 0.005,
+      "approximate_continuous_friction": 0.25,
+      "linearized_regime": "underdamped",
+      "upward_crossings": 3,
+      "measured_frequency": null,
+      "final_relative_displacement": -0.000200669722925139
+    },
+    {
+      "tau": 1,
+      "dt": 0.02,
+      "steps": 3000,
+      "source_damping": 0.005,
+      "approximate_continuous_friction": 0.25,
+      "linearized_regime": "underdamped",
+      "upward_crossings": 0,
+      "measured_frequency": null,
+      "final_relative_displacement": 0.00011239457649218344
+    },
+    {
+      "tau": 5,
+      "dt": 0.02,
+      "steps": 3000,
+      "source_damping": 0.005,
+      "approximate_continuous_friction": 0.25,
+      "linearized_regime": "overdamped",
+      "upward_crossings": 0,
+      "measured_frequency": null,
+      "final_relative_displacement": 0.9824763506756605
+    }
+  ],
+  "validation": {
+    "prediction": true,
+    "half_step": true,
+    "half_amplitude": true,
+    "first_grid_refinement": false,
+    "second_grid_refinement": true
+  }
+}
